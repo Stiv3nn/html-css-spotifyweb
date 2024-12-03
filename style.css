@@ -2,4 +2,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* blocco macro sopra*/
+#wrapper{
+    height: calc(100vh - 100px);
+    background-color: red;
+    display: flex;
+}
+ 
+/* navigazione di sinsitra */
+#wrapper nav{
+    height: 100%;
+    width: 200px;
+    background-color: rgb(1, 3, 12);
+}
+
+/* contenuto della parte principale */
+#wrapper main{
+    height: 100%;
+    width: calc(100% - 200px);
+    background-color: rgb(18, 25, 37);
+    overflow: auto;
+}
+
+/* blocco upgrade */
+main .upgrade{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(10, 13, 22);
+}
+
+
+/* FOOTER blocco player */
+#player{
+    height: 100px;
+    background-color: rgb(51, 51, 51);
+}
+
+
+
+/* versione mobile */
+@media screen and (max-width: 480px) {
+
+    #wrapper nav{
+        width: 100px;
+    } 
+
+    #wrapper main{
+        width: calc(100% - 100px);
+    }
+    
+    
 }
