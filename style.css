@@ -6,7 +6,7 @@
 }
 
 
-/* blocco macro sopra*/
+/* BLOCCO MACRO-STRUTTURA SOPRA*/
 #wrapper{
     height: calc(100vh - 100px);
     background-color: red;
@@ -41,6 +41,197 @@ main .upgrade{
     height: 100px;
     background-color: rgb(51, 51, 51);
 }
+
+
+/* Parametri blocco navigazione-sinistra */
+
+nav .logo-spotify{
+    color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+nav .fa-spotify{
+    font-size: 30px;
+}
+
+nav strong{
+    font-size: 20px;
+}
+
+
+
+nav .logo-home{
+    display: flex;
+    color: white;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+nav .fa-house{
+    font-size: 15px;
+}
+
+nav h2{
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+
+nav .logo-search{
+    display: flex;
+    color: gray;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+nav .logo-search:hover{
+    color: white;
+}
+
+
+nav .fa-magnifying-glass{
+    font-size: 15px;
+}
+
+nav .cerca{
+    margin-top: 3px;
+    font-size: 10px;
+}
+
+
+
+nav .logo-libreria{
+    display: flex;
+    color: gray;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+nav .logo-libreria:hover{
+    color: white;
+}
+
+nav .fa-list{
+    font-size: 15px;
+}
+
+nav .libreria{
+    margin-top: 3px;
+    font-size: 10px;
+}
+
+
+
+nav .playlist h2{
+    color: white;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+
+
+nav .crea-playlist{
+    display: flex;
+    color: gray;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+nav .crea-playlist:hover{
+    color: white;
+}
+
+nav .fa-square-plus{
+    font-size: 30px;
+}
+
+nav .crea-playlist h2{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+nav .creazioni-playlist{
+    color: gray;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+nav .nome-playlist{
+    font-size: 10px;
+}
+
+nav .playlist-1:hover{
+    color: white;
+}
+
+nav .playlist-2:hover{
+    color: white;
+}
+
+nav .playlist-3:hover{
+    color: white;
+}
+
+nav .playlist-4:hover{
+    color: white;
+}
+
+nav .playlist-5:hover{
+    color: white;
+}
+
+nav .playlist-6:hover{
+    color: white;
+}
+
+nav .playlist-7:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
