@@ -250,9 +250,100 @@ nav .nome-utente{
 
 
 
+/* Parametri del FOOTER */
+
+.immagine-sinister{
+    display: flex;
+    position: relative;
+}
+
+.immagine-sinister img{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.immagine-sinister h2{
+    font-size: 15px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.immagine-sinister .brano-nome{
+    font-size: 11px;
+    color: gray;
+    position: absolute;
+    left: 60px;
+    top: 17px;
+}
+
+.immagine-sinister .cuore{
+    color: gray;
+    position: relative;
+    left: 60px;
+    top: 45px;
+}
+
+.immagine-sinister .cuore:hover{
+    color: white;
+}
+
+.immagine-sinister .cartella{
+    color: gray;
+    position: relative;
+    left: 75px;
+    top: 45px;
+}
+
+.immagine-sinister .cartella:hover{
+    color: white;
+}
 
 
-/* versione mobile */
+
+.pulsanti{
+    color: white;
+    margin-left: 45%;
+    margin-top: -60px;
+    font-size: 20px;
+}
+
+.pulsanti .fa-arrows-turn-right{
+    margin-right: 10px;
+}
+
+.pulsanti .fa-arrow-left{
+    margin-right: 15px;
+}
+
+.pulsanti .fa-circle-play{
+    margin-right: 15px;
+}
+
+.pulsanti .fa-arrow-right{
+    margin-right: 10px;
+}
+   
+
+
+.pulsanti-destra{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    color: white;
+    font-size: 13px;
+}
+
+.pulsanti-destra .fa-list{
+    margin-right: 15px;
+}
+
+.pulsanti-destra .fa-tv{
+    margin-right: 15px;
+}
+
+
+/* VERSIONE MOBILE */
 @media screen and (max-width: 480px) {
 
     #wrapper nav{
@@ -342,6 +433,45 @@ nav .nome-utente{
         margin-left: 2px;
     }
 
+
+    /* FOOTER PLAYER */
+
+    #player{
+        width: 100%;
+    }
     
+    .immagine-sinister img{
+        height: 30px;
+        margin-top: 35px;
+    }
+
+    .immagine-sinister h2{
+        font-size: 12px;
+        margin-top: 30px;
+    }
     
+    .immagine-sinister .brano-nome{
+        font-size: 10px;
+        margin-left: -10px;
+    }
+
+    .immagine-sinister .cuore{
+        font-size: 14px;
+        left: 40px;
+        top: 30px;
+    }
+        
+    .immagine-sinister .cartella{
+        font-size: 14px;
+        left: 25px;
+        top: 50px;
+    }
+
+    .pulsanti{
+        margin-left: 35%;
+    }
+
+    .pulsanti-destra{
+        margin-top: 15px;
+    }
 }
