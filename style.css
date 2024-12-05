@@ -19,6 +19,7 @@
     width: 200px;
     background-color: rgb(1, 3, 12);
     position: relative;
+    overflow: hidden;
 }
 
 /* contenuto della parte principale */
@@ -250,6 +251,293 @@ nav .nome-utente{
 
 
 
+/* Parametri di main */
+
+.upgrade .buttone{
+    background-color: rgb(0, 0, 0, 0.1);
+    color: white;
+    padding: 10px 30px;
+}
+
+.upgrade{
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+}
+
+.buttone{
+    margin: 15px 0px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+.buttone:hover{
+    font-size: 15px;
+}
+
+
+
+.titoli-categorie{
+    color: gray;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.evidenza{
+    border-bottom: 2px solid greenyellow;
+    margin-right: 20px;
+}
+
+.podcast{
+    margin-right: 20px;
+}
+
+.classifiche{
+    margin-right: 20px;
+}
+
+.mood{
+    margin-right: 20px;
+}
+
+.nuove-uscite{
+    margin-right: 20px;
+}
+
+.scopri{
+    margin-right: 20px;
+}
+
+.evidenza:hover{
+    color: white;
+}
+
+.podcast:hover{
+    color: white;
+}
+
+.classifiche:hover{
+    color: white;
+}
+
+.mood:hover{
+    color: white;
+}
+
+.nuove-uscite:hover{
+    color: white;
+}
+
+.scopri:hover{
+    color: white;
+}
+
+
+
+.ascoltato-recentemente h2{
+    color: white;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+
+
+.immagini{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+    position: relative;
+}
+
+/* HEAVY METAL */
+.metal h2{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.metal .sottotitoli{
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* .metal .fa-circle-play{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 65px;
+    left: 80px;
+} */
+
+.metal img:hover{
+    filter: brightness(0.4)
+}
+
+/* STRANGER THINGS */
+.stranger h2{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.stranger .dixon-stein{
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.stranger img:hover{
+    filter: brightness(0.4)
+}
+
+/* A QUIET PLACE */
+.place h2{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.place .sottotitoli{
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.place img:hover{
+    filter: brightness(0.4)
+}
+
+/* SPLIT */
+.split h2{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.split .sottotitoli{
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.split img:hover{
+    filter: brightness(0.4)
+}
+
+/* A CURE FOR WELLNESS */
+.cure h2{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cure .sottotitoli{
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cure img:hover{
+    filter: brightness(0.4)
+}
+
+/* SINISTER */
+.sinisterr h2{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sinisterr .sottotitoli{
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sinisterr img:hover{
+    filter: brightness(0.4)
+}
+
+
+
+.per-doe{
+    color: white;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.suggerimenti{
+    color: gray;
+    font-size: 8px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+
+.immagini-mix{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.immagini-mix .mixdaily{
+    margin-left: 15px;
+}
+
+.immagini-mix img:hover{
+    filter: brightness(0.4)
+}
+
+
+
+.artisti{
+    color: white;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+
+
+.lana-einaudi{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.lana-einaudi .einaudi{
+    margin-left: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.lana-einaudi .lana{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.lana-einaudi img:hover{
+    filter: brightness(0.4)
+}
+
+
+
 /* Parametri del FOOTER */
 
 .immagine-sinister{
@@ -432,6 +720,47 @@ nav .nome-utente{
     nav .fa-circle-down{
         margin-left: 2px;
     }
+
+
+
+/* PARAMETRI MAIN */
+
+    main .upgrade{
+        width: 100%;
+    }
+
+    #wrapper main{
+        height: 100%;
+        width: 100%;
+    }
+
+    .titoli-categorie{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 8px;
+    }
+
+    .titoli-categorie .nuove-uscite ,.scopri{
+        margin-top: 30px;
+    }
+
+    .ascoltato-recentemente h2{
+        font-size: 20px;
+    }
+
+    .immagini{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .immagini img{
+        height: 190px;
+    }
+
+    .lana-einaudi img{
+        height: 190px;
+    }
+
 
 
     /* FOOTER PLAYER */
